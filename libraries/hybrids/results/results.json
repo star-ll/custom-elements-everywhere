@@ -21,18 +21,18 @@
     "browsers": [
         {
             "browser": {
-                "id": "24284345",
-                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/132.0.0.0 Safari/537.36",
-                "name": "Chrome Headless 132.0.0.0 (Linux x86_64)",
+                "id": "6181186",
+                "fullName": "FirefoxHeadless",
+                "name": "FirefoxHeadless",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1737735077539,
+                    "startTime": 1737736893057,
                     "total": 16,
                     "success": 15,
                     "failed": 1,
                     "skipped": 0,
-                    "totalTime": 348,
-                    "netTime": 196,
+                    "totalTime": 368,
+                    "netTime": 257,
                     "error": false,
                     "disconnected": false
                 },
@@ -51,11 +51,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 10,
+                    "time": 17,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077543,
-                    "endTime": 1737735077554,
+                    "startTime": 1737736893055,
+                    "endTime": 1737736893072,
                     "weight": 3
                 },
                 {
@@ -67,11 +67,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 5,
+                    "time": 12,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077570,
-                    "endTime": 1737735077575,
+                    "startTime": 1737736893074,
+                    "endTime": 1737736893086,
                     "weight": 3
                 },
                 {
@@ -83,11 +83,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 19,
+                    "time": 26,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077587,
-                    "endTime": 1737735077606,
+                    "startTime": 1737736893094,
+                    "endTime": 1737736893120,
                     "weight": 3
                 },
                 {
@@ -99,11 +99,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 50,
+                    "time": 47,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077610,
-                    "endTime": 1737735077660,
+                    "startTime": 1737736893121,
+                    "endTime": 1737736893168,
                     "weight": 3
                 },
                 {
@@ -115,11 +115,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 12,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077661,
-                    "endTime": 1737735077678,
+                    "startTime": 1737736893175,
+                    "endTime": 1737736893187,
                     "weight": 3
                 },
                 {
@@ -131,11 +131,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 6,
+                    "time": 10,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077695,
-                    "endTime": 1737735077701,
+                    "startTime": 1737736893193,
+                    "endTime": 1737736893203,
                     "weight": 3
                 },
                 {
@@ -147,11 +147,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 25,
+                    "time": 15,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077702,
-                    "endTime": 1737735077727,
+                    "startTime": 1737736893206,
+                    "endTime": 1737736893221,
                     "weight": 3
                 },
                 {
@@ -163,11 +163,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 10,
+                    "time": 12,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077734,
-                    "endTime": 1737735077744,
+                    "startTime": 1737736893225,
+                    "endTime": 1737736893239,
                     "weight": 3
                 },
                 {
@@ -179,11 +179,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 10,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077759,
-                    "endTime": 1737735077761,
+                    "startTime": 1737736893242,
+                    "endTime": 1737736893252,
                     "weight": 2
                 },
                 {
@@ -195,13 +195,13 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 10,
+                    "time": 20,
                     "log": [
-                        "Error: Uncaught AssertionError: expected '[object Object],' to deeply equal { library: 'hybrids' } (webpack:///./node_modules/chai/lib/chai/assertion.js?:152)"
+                        "uncaught exception: AssertionError: expected '[object Object],' to deeply equal { library: 'hybrids' } (webpack:///./node_modules/chai/lib/chai/assertion.js?:152)"
                     ],
                     "assertionErrors": [],
-                    "startTime": 1737735077773,
-                    "endTime": 1737735077785,
+                    "startTime": 1737736893253,
+                    "endTime": 1737736893273,
                     "weight": 2
                 },
                 {
@@ -213,11 +213,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 11,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077803,
-                    "endTime": 1737735077804,
+                    "startTime": 1737736893275,
+                    "endTime": 1737736893286,
                     "weight": 2
                 },
                 {
@@ -229,11 +229,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 0,
+                    "time": 10,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077805,
-                    "endTime": 1737735077806,
+                    "startTime": 1737736893287,
+                    "endTime": 1737736893303,
                     "weight": 2
                 },
                 {
@@ -245,32 +245,16 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 11,
+                    "time": 17,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077812,
-                    "endTime": 1737735077823,
+                    "startTime": 1737736893307,
+                    "endTime": 1737736893324,
                     "weight": 1
                 },
                 {
                     "id": "",
                     "description": "can declaratively listen to a camelCase DOM event dispatched by a Custom Element",
-                    "suite": [
-                        "advanced support",
-                        "events"
-                    ],
-                    "success": true,
-                    "skipped": false,
-                    "time": 13,
-                    "log": [],
-                    "assertionErrors": [],
-                    "startTime": 1737735077831,
-                    "endTime": 1737735077844,
-                    "weight": 1
-                },
-                {
-                    "id": "",
-                    "description": "can declaratively listen to a CAPScase DOM event dispatched by a Custom Element",
                     "suite": [
                         "advanced support",
                         "events"
@@ -280,8 +264,24 @@
                     "time": 8,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077849,
-                    "endTime": 1737735077857,
+                    "startTime": 1737736893327,
+                    "endTime": 1737736893336,
+                    "weight": 1
+                },
+                {
+                    "id": "",
+                    "description": "can declaratively listen to a CAPScase DOM event dispatched by a Custom Element",
+                    "suite": [
+                        "advanced support",
+                        "events"
+                    ],
+                    "success": true,
+                    "skipped": false,
+                    "time": 14,
+                    "log": [],
+                    "assertionErrors": [],
+                    "startTime": 1737736893337,
+                    "endTime": 1737736893351,
                     "weight": 1
                 },
                 {
@@ -293,29 +293,29 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 10,
+                    "time": 16,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735077864,
-                    "endTime": 1737735077875,
+                    "startTime": 1737736893353,
+                    "endTime": 1737736893369,
                     "weight": 1
                 }
             ]
         },
         {
             "browser": {
-                "id": "94059750",
-                "fullName": "FirefoxHeadless",
-                "name": "FirefoxHeadless",
+                "id": "8838253",
+                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/132.0.0.0 Safari/537.36",
+                "name": "Chrome Headless 132.0.0.0 (Linux x86_64)",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1737735083353,
+                    "startTime": 1737736885863,
                     "total": 16,
                     "success": 15,
                     "failed": 1,
                     "skipped": 0,
-                    "totalTime": 387,
-                    "netTime": 252,
+                    "totalTime": 338,
+                    "netTime": 210,
                     "error": false,
                     "disconnected": false
                 },
@@ -334,11 +334,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 34,
+                    "time": 7,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083322,
-                    "endTime": 1737735083356,
+                    "startTime": 1737736885862,
+                    "endTime": 1737736885874,
                     "weight": 3
                 },
                 {
@@ -350,11 +350,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 6,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083372,
-                    "endTime": 1737735083374,
+                    "startTime": 1737736885882,
+                    "endTime": 1737736885889,
                     "weight": 3
                 },
                 {
@@ -366,11 +366,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 36,
+                    "time": 28,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083396,
-                    "endTime": 1737735083433,
+                    "startTime": 1737736885909,
+                    "endTime": 1737736885938,
                     "weight": 3
                 },
                 {
@@ -382,11 +382,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 32,
+                    "time": 49,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083440,
-                    "endTime": 1737735083473,
+                    "startTime": 1737736885940,
+                    "endTime": 1737736885989,
                     "weight": 3
                 },
                 {
@@ -398,11 +398,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 20,
+                    "time": 21,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083474,
-                    "endTime": 1737735083495,
+                    "startTime": 1737736885990,
+                    "endTime": 1737736886012,
                     "weight": 3
                 },
                 {
@@ -414,11 +414,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 8,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083499,
-                    "endTime": 1737735083517,
+                    "startTime": 1737736886022,
+                    "endTime": 1737736886030,
                     "weight": 3
                 },
                 {
@@ -433,8 +433,8 @@
                     "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083520,
-                    "endTime": 1737735083522,
+                    "startTime": 1737736886036,
+                    "endTime": 1737736886039,
                     "weight": 3
                 },
                 {
@@ -446,11 +446,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 21,
+                    "time": 8,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083525,
-                    "endTime": 1737735083546,
+                    "startTime": 1737736886048,
+                    "endTime": 1737736886056,
                     "weight": 3
                 },
                 {
@@ -462,11 +462,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 15,
+                    "time": 5,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083554,
-                    "endTime": 1737735083569,
+                    "startTime": 1737736886067,
+                    "endTime": 1737736886072,
                     "weight": 2
                 },
                 {
@@ -478,13 +478,13 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 16,
+                    "time": 26,
                     "log": [
-                        "uncaught exception: AssertionError: expected '[object Object],' to deeply equal { library: 'hybrids' } (webpack:///./node_modules/chai/lib/chai/assertion.js?:152)"
+                        "Error: Uncaught AssertionError: expected '[object Object],' to deeply equal { library: 'hybrids' } (webpack:///./node_modules/chai/lib/chai/assertion.js?:152)"
                     ],
                     "assertionErrors": [],
-                    "startTime": 1737735083573,
-                    "endTime": 1737735083598,
+                    "startTime": 1737736886074,
+                    "endTime": 1737736886114,
                     "weight": 2
                 },
                 {
@@ -499,8 +499,8 @@
                     "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083608,
-                    "endTime": 1737735083618,
+                    "startTime": 1737736886121,
+                    "endTime": 1737736886122,
                     "weight": 2
                 },
                 {
@@ -512,11 +512,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083627,
-                    "endTime": 1737735083630,
+                    "startTime": 1737736886125,
+                    "endTime": 1737736886130,
                     "weight": 2
                 },
                 {
@@ -528,11 +528,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 7,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083631,
-                    "endTime": 1737735083648,
+                    "startTime": 1737736886132,
+                    "endTime": 1737736886140,
                     "weight": 1
                 },
                 {
@@ -544,11 +544,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 21,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083651,
-                    "endTime": 1737735083654,
+                    "startTime": 1737736886140,
+                    "endTime": 1737736886161,
                     "weight": 1
                 },
                 {
@@ -560,11 +560,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 9,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083660,
-                    "endTime": 1737735083670,
+                    "startTime": 1737736886167,
+                    "endTime": 1737736886173,
                     "weight": 1
                 },
                 {
@@ -576,11 +576,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 26,
+                    "time": 15,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1737735083672,
-                    "endTime": 1737735083698,
+                    "startTime": 1737736886176,
+                    "endTime": 1737736886191,
                     "weight": 1
                 }
             ]
