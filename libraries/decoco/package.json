@@ -1,0 +1,63 @@
+{
+  "scripts": {
+    "test": "wireit",
+    "build": "wireit",
+    "build:decoco": "wireit"
+  },
+  "library_repo": "decoco",
+  "devDependencies": {
+    "@decoco/rollup-plugin-auto-inject-component": "^0.3.1",
+    "babel-core": "6.26.3",
+    "babel-loader": "9.1.3",
+    "chai": "4.3.10",
+    "cross-env": "7.0.3",
+    "karma": "6.4.2",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-firefox-launcher": "2.1.2",
+    "karma-sourcemap-loader": "0.4.0",
+    "karma-webpack": "5.0.0",
+    "vite": "^6.0.11",
+    "webpack": "5.94.0"
+  },
+  "wireit": {
+    "test": {
+      "dependencies": [
+        "../..:karma-plugins",
+        "build:decoco"
+      ],
+      "files": [
+        "karma.conf.js",
+        "vite.config.ts",
+        "tests.webpack.js",
+        "tsconfig.json",
+        "src",
+        "dist",
+        "meta"
+      ],
+      "output": [
+        "results"
+      ],
+      "command": "cross-env LIBRARY_NAME=@decoco/core karma start"
+    },
+    "build": {
+      "dependencies": [
+        "test"
+      ]
+    },
+    "build:decoco": {
+      "files": [
+        "vite.config.ts",
+        "tsconfig.json",
+        "src"
+      ],
+      "output": [
+        "dist"
+      ],
+      "command": "vite build"
+    }
+  },
+  "dependencies": {
+    "@decoco/core": "^0.3.8-alpha.0",
+    "@decoco/renderer": "^0.3.8-alpha.0"
+  }
+}
