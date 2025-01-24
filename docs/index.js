@@ -40,7 +40,8 @@ const libraryMap = {
   stencil: "Stencil",
   surplus: "Surplus",
   svelte: "Svelte",
-  vue: "Vue"
+  vue: "Vue",
+  decoco: "Decoco",
 };
 
 // When renaming a library, keep an alias so that old URLs still work.

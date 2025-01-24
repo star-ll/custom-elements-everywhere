@@ -50,7 +50,8 @@
         "./libraries/stencil:build",
         "./libraries/surplus:build",
         "./libraries/svelte:build",
-        "./libraries/vue:build"
+        "./libraries/vue:build",
+        "./libraries/decoco:build"
       ],
       "output": [
         "docs/libraries"
